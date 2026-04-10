@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 
-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,18 +19,18 @@ header {
   align-items: center;
 }
 
-nav ul {
+.nav_list {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-nav ul li {
+.nav_list_item {
   margin-right: 20px;
 }
 
-nav ul li:last-child {
+.nav_list_item:last-child {
   margin-right: 0;
 }
 
