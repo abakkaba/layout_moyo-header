@@ -19,6 +19,11 @@ body {
   align-items: center;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+}
+
 .nav_list {
   display: flex;
   margin: 0;
@@ -36,6 +41,7 @@ body {
 
 .nav_link {
   display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 12px;
   line-height: 15px;
